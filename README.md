@@ -107,5 +107,5 @@ The model was able to predict 3 of 5, 60 % correct. It failed on the the speed s
           
           
 Image | Speed limit (80 km/h) | Speed limit (50 km/h) | Speed limit (70 km/h) | Speed limit (120 km/h) | Speed limit (30 km/h) 
-------------- | -------------
+------------- | -------------|-------------|-------------|-------------|-------------|
 Speed limit (60 km/h| 0.055| 0.08| 0.150| 0.160| 0.165
