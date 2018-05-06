@@ -44,3 +44,13 @@ Layer         | Description
 ------------- | -------------
 Input         | 32 x 32 x 1 grayscale
 Convolution 1x1 with RELU  | Strides 1 x 1 and padding valid
+Maxpooling    | Strides 2 x 2 padding valid
+Convolution 1x1 with RELU | Strides 1 x 1 padding valid
+Maxpooling    | Strides 2 x 2 padding valid
+Fully connected with RELU | 400 to 120 
+Fully connected with RELU | 120 to 84 
+Fully connected with RELU | 84 to 43 
+
+
+
+
