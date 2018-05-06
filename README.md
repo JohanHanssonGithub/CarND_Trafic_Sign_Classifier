@@ -56,4 +56,12 @@ Fully connected with RELU | 84 to 43
 
 ### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model I used Adam optimizer with a learning rate of 0.001. With 5 epochs and a batch size of 128 to keep the computanional power needed low. 
+To train the model I used Adam optimizer with a learning rate of 0.00097. With 30 epochs and a batch size of 64 to keep the computanional power needed low. 
+
+
+### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
+
+* Validation accuracy = 0.954
+* Test accuracy = 0.935
+
+To get a accuracy of at least 0.93 I implemented the lenet structure, and tried 30  epochs batch size 128 anr learning rate 1. In the beggining I used to few epochs to get good accuracy, but  no mather what I did, i was below 0.93. After a couple of tries, I had to change tactics. So i add two drop out layers, tweaked the batch size and then I made it. 
