@@ -108,4 +108,28 @@ The model was able to predict 3 of 5, 60 % correct. It failed on the the speed s
           
 Image | Speed limit (80 km/h) | Speed limit (50 km/h) | Speed limit (70 km/h) | Speed limit (120 km/h) | Speed limit (30 km/h) 
 ------------- | -------------|-------------|-------------|-------------|-------------|
-Speed limit (60 km/h| 0.055| 0.08| 0.150| 0.160| 0.165
+Speed limit (60 km/h)| 0.055| 0.08| 0.150| 0.160| 0.165
+
+
+
+
+Image | No passing | No vehicles | Priotory road | Ahead only | Go straight or left 
+------------- | -------------|-------------|-------------|-------------|-------------|
+Go straight or left | 0.03| 0.035| 0.045| 0.30| 0.45
+
+
+Image | Pritory road 
+------------- | -------------
+Pritory road | 1.0
+
+Image | No entry | Stop
+------------- | -------------| -------------
+Pritory road | 0.95 | 0.05
+
+
+Image | Speed limit (30 km/h) | No passing| Roundabout mandatory | Speed limit (20 km/h) | Speed limit (120 km/h)
+------------- | -------------|-------------|-------------|-------------|-------------|
+Speed limit (60 km/h)| 0.001| 0.005| 0.02| 0.120| 0.86
+
+
+The values arenn't exact but show the relations, between the predictions. 
