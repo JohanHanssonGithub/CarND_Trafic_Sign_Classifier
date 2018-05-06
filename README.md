@@ -96,6 +96,21 @@ Image         | Prediction
 Speed limit (20km/h)         | Roundabout mandatory
 Priority road | Priority road
 No entry    | No entry
-Speed limit (60km/h)| Speed limit (60km/h)
+Speed limit (60km/h)| Speed limit (30km/h)
 Go straight or left    | Go straight or left
 
+The model was able to predict 3 of 5, 60 % correct. It failed on the the speed signes as I thought could happen. 
+
+
+
+### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
+
+[  1.80889159e-01,   1.61858052e-01,   1.48045316e-01,
+          8.40184316e-02,   5.98625541e-02]
+Image         | Prediction
+------------- | -------------
+Speed limit (20km/h)         | Roundabout mandatory
+Priority road | Priority road
+No entry    | No entry
+Speed limit (60km/h)| Speed limit (30km/h)
+Go straight or left    | Go straight or left
