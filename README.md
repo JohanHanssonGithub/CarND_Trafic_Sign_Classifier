@@ -54,3 +54,6 @@ Fully connected with RELU | 84 to 43
 
 
 
+### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
+
+To train the model I used Adam optimizer with a learning rate of 0.001. With 5 epochs and a batch size of 128 to keep the computanional power needed low. 
