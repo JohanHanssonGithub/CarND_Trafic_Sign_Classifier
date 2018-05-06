@@ -74,6 +74,12 @@ To get a accuracy of at least 0.93 I implemented the lenet structure, and tried 
 ### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 ![Screenshot](CarND-Traffic-Sign-Classifier-Project/test_pictures_2/picture_1.jpg)
+The image is 
 
+![Screenshot](CarND-Traffic-Sign-Classifier-Project/test_pictures_2/picture_2.jpg)
+![Screenshot](CarND-Traffic-Sign-Classifier-Project/test_pictures_2/picture_3.jpg)
+![Screenshot](CarND-Traffic-Sign-Classifier-Project/test_pictures_2/picture_4.jpg)
+![Screenshot](CarND-Traffic-Sign-Classifier-Project/test_pictures_2/picture_5.jpg)
 
+The first image is bright and the label has very few training exampels. The second image should be easier to classify, as it has a very distinct look compared to the other classes. But it is a bit tilted. The third image has a bit of a wierd lighting, but is alos very distinct in shape and color. The forth sign will probably have some problems in classification, due to that there are many simular signs and it is not completly round as the photo is taken from the side. The fith sign has a little dot in it, which might cause problems. But this image is good and it should be classified correctly. The sixth image is very bright, but evenly so. If dropout did its job this image should be classified on shape and not color.
 
