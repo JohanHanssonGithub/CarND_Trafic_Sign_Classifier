@@ -87,3 +87,15 @@ This imange is very similare to alot of other speed signes, so i belive it will 
 
 ![Screenshot](CarND-Traffic-Sign-Classifier-Project/test_pictures_2/picture_5.jpg)
 This image has som similarites to other signes but, i believe there are enough of diffrenses. 
+
+
+### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
+
+Image         | Prediction
+------------- | -------------
+Speed limit (20km/h)         | Roundabout mandatory
+Priority road | Priority road
+No entry    | No entry
+Speed limit (60km/h)| Speed limit (60km/h)
+Go straight or left    | Go straight or left
+
