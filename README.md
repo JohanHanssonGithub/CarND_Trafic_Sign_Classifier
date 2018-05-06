@@ -48,7 +48,9 @@ Maxpooling    | Strides 2 x 2 padding valid
 Convolution 1x1 with RELU | Strides 1 x 1 padding valid
 Maxpooling    | Strides 2 x 2 padding valid
 Fully connected with RELU | 400 to 120 
+DropOut | 50% 
 Fully connected with RELU | 120 to 84 
+DropOut | 50% 
 Fully connected with RELU | 84 to 43 
 
 
@@ -65,3 +67,13 @@ To train the model I used Adam optimizer with a learning rate of 0.00097. With 3
 * Test accuracy = 0.935
 
 To get a accuracy of at least 0.93 I implemented the lenet structure, and tried 30  epochs batch size 128 anr learning rate 1. In the beggining I used to few epochs to get good accuracy, but  no mather what I did, i was below 0.93. After a couple of tries, I had to change tactics. So i add two drop out layers, tweaked the batch size and then I made it. 
+
+## Test a Model on New Images
+
+
+### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
+
+![Screenshot](CarND-Traffic-Sign-Classifier-Project/test_pictures_2/picture_1.jpg)
+
+
+
