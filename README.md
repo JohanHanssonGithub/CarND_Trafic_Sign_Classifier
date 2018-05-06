@@ -106,6 +106,6 @@ The model was able to predict 3 of 5, 60 % correct. It failed on the the speed s
 ### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
           
           
-Image         | Speed limit (80 km/h) | Speed limit (50 km/h) | Speed limit (70 km/h) | Speed limit (120 km/h) | Speed limit (30 km/h) | 
+Image | Speed limit (80 km/h) | Speed limit (50 km/h) | Speed limit (70 km/h) | Speed limit (120 km/h) | Speed limit (30 km/h) 
 ------------- | -------------
-Speed limit (60 km/h)         | 0.055| 0.08| 0.150| 0.160| 0.165| 
+Speed limit (60 km/h| 0.055| 0.08| 0.150| 0.160| 0.165
