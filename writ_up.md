@@ -43,9 +43,9 @@ I belive that the shape was the most importent factor, and if you would use this
 Layer         | Description
 ------------- | -------------
 Input         | 32 x 32 x 1 grayscale
-Convolution 1x1 with RELU  |  5 x 5 and padding valid
+Convolution 1x1 with RELU  |  5 x 5 convolutions, padding valid
 Maxpooling    | Strides 2 x 2 padding valid
-Convolution 1x1 with RELU |  5 x 5 padding valid
+Convolution 1x1 with RELU |  5 x 5 convolutions, padding valid
 Maxpooling    | Strides 2 x 2 padding valid
 Fully connected with RELU | 400 to 120 
 DropOut | 50% 
